@@ -1,0 +1,9 @@
+* text=auto eol=lf
+# 模型权重、元数据与第三方算法按字节固定，哈希写在 model.js 与 release/*.sha256。
+*.bin binary
+*.zip binary
+src/frontend/shared/analysis/aqua-1-crest/model.js -text
+src/frontend/shared/analysis/aqua-ef-01/*-model.js -text
+src/frontend/shared/analysis/aqua-ef-01/*features.js -text
+src/public/vendor/mania-analyser/** -text
+release/model-metadata.json -text

@@ -1,0 +1,20 @@
+{
+  "name": "aquacrest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AquaCrest：观景台的 osu!mania 4K 整谱难度模型（浏览器与 Node 通用推理）",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "verify": "node scripts/verify.mjs",
+    "predict": "node scripts/predict.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}

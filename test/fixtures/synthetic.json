@@ -1,0 +1,293 @@
+{
+  "description": "Artificial-chart regression snapshots from the existing runtime; not human labels or an independent accuracy evaluation.",
+  "modelSha256": "cc87da936ecf9f662dbf11b38d52c4770eb7f2339d5e5cef75c8d9ec12c3c72c",
+  "cases": [
+    {
+      "id": "synthetic-cycle",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "rows": 1200,
+        "gaps": [
+          100
+        ]
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 3.540284342065476,
+        "E": 84.61188139939891,
+        "F": 110.78807670529335,
+        "curvePoints": 2400
+      }
+    },
+    {
+      "id": "synthetic-one-hand",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "rows": 1200,
+        "gaps": [
+          100
+        ]
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 5.665277700843101,
+        "E": 154.53027359250962,
+        "F": 101.72981163415076,
+        "curvePoints": 2400
+      }
+    },
+    {
+      "id": "synthetic-jack",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ]
+        ],
+        "rows": 1200,
+        "gaps": [
+          100
+        ]
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 9.267602696562104,
+        "E": 209.0774802828099,
+        "F": 251.21443347030257,
+        "curvePoints": 2400
+      }
+    },
+    {
+      "id": "synthetic-chords",
+      "chart": {
+        "pattern": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": 600,
+        "gaps": [
+          200
+        ]
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 2.1308762893159092,
+        "E": 74.93761949033109,
+        "F": 114.8121355310495,
+        "curvePoints": 1799
+      }
+    },
+    {
+      "id": "synthetic-irregular",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "rows": 800,
+        "gaps": [
+          80,
+          120,
+          160,
+          90
+        ]
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 3.718836975437755,
+        "E": 83.004986462729,
+        "F": 98.85015675705421,
+        "curvePoints": 4575
+      }
+    },
+    {
+      "id": "synthetic-rests",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "rows": 1200,
+        "gaps": [
+          100
+        ],
+        "restEvery": 300,
+        "restMs": 5000
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 3.2805331602697057,
+        "E": 81.25019344978875,
+        "F": 116.51831104297973,
+        "curvePoints": 2490
+      }
+    },
+    {
+      "id": "synthetic-ln-boundary",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "rows": 500,
+        "gaps": [
+          100
+        ],
+        "holdCount": 90
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 3.4763787455645345,
+        "E": 79.88538510201968,
+        "F": 110.78807670529335,
+        "curvePoints": 1195
+      }
+    },
+    {
+      "id": "synthetic-minimum-heads",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "rows": 80,
+        "gaps": [
+          125
+        ]
+      },
+      "rate": 1,
+      "expected": {
+        "difficulty": 1.3239378036797744,
+        "E": 69.60913935282503,
+        "F": 110.78807670529335,
+        "curvePoints": 160
+      }
+    },
+    {
+      "id": "synthetic-faster",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "rows": 1200,
+        "gaps": [
+          100
+        ]
+      },
+      "rate": 1.25,
+      "expected": {
+        "difficulty": 4.650087525080872,
+        "E": 97.7251790013125,
+        "F": 110.78807670529335,
+        "curvePoints": 5985
+      }
+    },
+    {
+      "id": "synthetic-slower",
+      "chart": {
+        "pattern": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "rows": 1200,
+        "gaps": [
+          100
+        ]
+      },
+      "rate": 0.75,
+      "expected": {
+        "difficulty": 2.376200733599262,
+        "E": 80.69795973651291,
+        "F": 110.78807670529335,
+        "curvePoints": 5991
+      }
+    }
+  ]
+}
